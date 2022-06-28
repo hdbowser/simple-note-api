@@ -15,9 +15,9 @@ namespace Namespace
 		{
 			return new JsonResult(new
 			{
-				Name = "SimpleNote.API",
+				Name = "SimpleNote.Api",
 				Detail = "A simple WebAPI for testing",
-				By = "hdbowserz@gmail.com",
+				By = "hdbowser@gmail.com",
 				Github = "https://github.com/hdbowser/simple-note-api",
 				Date = DateTime.Now.ToLongDateString()
 			});
